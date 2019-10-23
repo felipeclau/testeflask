@@ -1,0 +1,70 @@
+body{
+    background-color: white;
+    margin: 0 auto;
+}
+p.body{
+    margin-top: 0px;
+}
+header{
+    max-width: 100%;
+    height: 60px;
+    background: #2E8B57;
+}
+.p1{
+    float: left;
+    font-family: "Calibri";
+    font-size: 30px;
+    color: white;
+    margin-top: 10px;
+    margin-right: 850px;
+}
+.p2{
+    float: left;
+    font-family: "Calibri";
+    font-size: 30px;
+    color: white;
+    margin-top: 10px;
+    margin-right: 5px;
+    text-decoration: none;
+}
+.p3{
+    text-align: center;
+    margin-right: 0px;
+    margin-top: 260px;
+    margin-left: -800px;
+    color: #2E8B57;
+    font-family: "Calibri";
+    font-size: 30px;
+}
+.p4{
+    text-align: center;
+    margin-right: 0px;
+    margin-top: -30px;
+    margin-left: -800px;
+    font-family: "Calibri";
+    font-size: 25px;
+}
+img.logo{
+    float:left;
+    width: 100px;
+    margin-top: 0px;
+    margin-left: -5px;
+}
+img.estudantehome{
+    float: Right;
+    margin-top: -274px;
+    margin-right: 200px;
+    width: 300px;
+}
+footer{
+    max-width: 100%;
+    height: 40px;
+    margin-top: 238px;
+    background: #e9e9e9;
+}
+p.footer{
+    text-align: center;
+    font-family: Calibri;
+    font-size: 15px;
+    color: #808080;
+}

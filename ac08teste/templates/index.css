@@ -1,0 +1,13 @@
+
+.estiloHeader a:hover{
+    background-color: #2E8B57;
+    color: red;
+    text-decoration: none;
+}
+a:link{
+    
+    text-decoration: none;
+} 
+a:visited{
+    color: white;
+}
