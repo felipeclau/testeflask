@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html> 
+    
+    <head>
+        <meta charset="utf-8"> 
+        <title> Matriz Curricular - Eletrônica</title> 
+        <link rel="stylesheet" href="site.css"/>
+        <link rel="stylesheet" href="matrizCurricular.css"/>
+
+    </head>
+
+<!---------------------------------------------------------------------------------------------------------------------------------------->
+
+    <header>
+        <img class="logo" src="LogoCTAZ.png"/>
+        <span><a href="index.html"><p class="p1">Colégio Técnico AZ</p></a></span>
+        <div class="estiloHeader">
+        <span><p class="p2"><a href="detalhesEletronica.html">Voltar</a></p></span>
+        <span><p class="p2"><a href="listaCurso.html">Cursos</a></p></span>
+    </header>
+
+<!---------------------------------------------------------------------------------------------------------------------------------------->
+   
+    <body> 
+   
+        <h3>Eletrônica<h3>
+        <button type="button" class="collapsible">1º Semestre</button>
+		      	<div class="content">
+                <ul>
+		          			<li>Desenho Técnico</li>
+                    <li>Eletricidade</li>
+                    <li>Física</li>
+                    <li>Matemática</li>
+                </ul>
+		      	</div>
+
+	
+        <button type="button" class="collapsible">2º Semestre</button>
+		      	<div class="content">
+                <ul>
+                    <li>Física</li>
+                    <li>Eletrônica Analógica</li>
+                    <li>Eletrônica Digital</li>
+                    <li>Amplificador Operacional</li>
+                    <li>Optoeletrônica</li>
+                    <li>Sensores / Transdutores</li>
+                    <li>Inglês / Alemão Técnico</li>
+                </ul>
+	      		</div>
+			
+			
+        <button type="button" class="collapsible">3º Semestre</button>
+            <div class="content">
+                <ul>
+                    <li>Análise de Circuitos I</li>
+                    <li>Análise de Circuitos II</li>
+                    <li>Manutenção de Equipamentos</li>
+                    <li>Projeto de Interfaces</li>
+                    <li>Redes / Protocolos Industriais</li>
+                    <li>O E/Empreendedorismo</li>
+                    <li>Inglês / Alemão Técnico</li>
+                </ul>
+            </div> 
+
+<!---------------------------------------------------------------------------------------------------------------------------------------->
+
+        <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+            
+            for (i = 0; i < coll.length; i++) {
+              coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                  content.style.display = "none";
+                } else {
+                  content.style.display = "block";
+                }
+              });
+            }
+            </script>
+    </body>
+
+        <footer> <p class="footer">Desenvolvido por Adriano, Bruno, Felipe e Letícia</p> </footer>
+
+</html>
